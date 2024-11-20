@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy - Food Menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        /* Ensures all images have a fixed height and are centered/cropped */
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Yummy - Food Menu</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Product Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://leitesculinaria.com/wp-content/uploads/2020/02/classic-cheeseburger-1200.jpg" class="card-img-top" alt="Classic Cheeseburger">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Cheeseburger</h5>
+                        <p class="card-text">Juicy beef patty topped with melted cheese, fresh lettuce, tomato, and a tangy special sauce.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">Rating: ★★★★☆</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://ohsweetbasil.com/wp-content/uploads/four-cheese-margherita-pizza-recipe-12-scaled.jpg" class="card-img-top" alt="Margherita Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Margherita Pizza</h5>
+                        <p class="card-text">A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">Rating: ★★★★★</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/fettuccine-alfredo-1.jpg" class="card-img-top" alt="Creamy Alfredo Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Creamy Alfredo Pasta</h5>
+                        <p class="card-text">Rich and creamy Alfredo sauce over fettuccine pasta, garnished with parmesan cheese and parsley.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">Rating: ★★★★☆</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
